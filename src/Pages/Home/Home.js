@@ -4,15 +4,27 @@ import GetInTouch from './GetInTouch';
 import NavBar from './NavBar';
 import Projects from './Projects';
 import Skills from './Skills';
+import './Home.css';
+import Border from '../Common/Border';
+import SocialLink from '../Common/SocialLink';
 
 const Home = () => {
     return (
         <div>
-            <NavBar></NavBar>
-            {/* <Banner></Banner> */}
-            {/* <Skills></Skills> */}
-            {/* <Projects></Projects> */}
-            {/* <GetInTouch></GetInTouch> */}
+
+            <div className='backgroundBanner rounded-bottom'>
+                <NavBar></NavBar>
+                <Banner></Banner>
+            </div>
+
+            <div>
+                <Skills></Skills>
+                {/* <Border></Border> */}
+                <Projects></Projects>
+                <GetInTouch></GetInTouch>
+                <SocialLink></SocialLink>
+            </div>
+
         </div>
     );
 };

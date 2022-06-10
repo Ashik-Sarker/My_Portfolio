@@ -7,6 +7,7 @@ import './Home.css';
 import Footer from '../Common/Footer';
 import Border from '../Common/Border';
 import NavBar from './NavBar';
+import AboutMe from './AboutMe';
 
 const Home = () => {
     return (
@@ -20,7 +21,8 @@ const Home = () => {
             <div>
                 <Skills></Skills>
                 <Projects></Projects>
-                <Border></Border>
+                <AboutMe></AboutMe>
+                {/* <Border></Border> */}
                 <GetInTouch></GetInTouch>
                 <Footer></Footer>
             </div>

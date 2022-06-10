@@ -1,7 +1,8 @@
 .backgroundBanner{
     background-color: blueviolet;
     /* border-bottom-left-radius: 550px; */
-    border-bottom-right-radius: 350px;
+    border-bottom-right-radius: 600px;
+    /* border-bottom-left-radius: 600px; */
 }
 .logo{
     font-family: 'Dancing Script', cursive;

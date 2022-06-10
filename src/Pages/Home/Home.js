@@ -5,8 +5,8 @@ import NavBar from './NavBar';
 import Projects from './Projects';
 import Skills from './Skills';
 import './Home.css';
+import Footer from '../Common/Footer';
 import Border from '../Common/Border';
-import SocialLink from '../Common/SocialLink';
 
 const Home = () => {
     return (
@@ -20,8 +20,9 @@ const Home = () => {
             <div>
                 <Skills></Skills>
                 <Projects></Projects>
+                <Border></Border>
                 <GetInTouch></GetInTouch>
-                <SocialLink></SocialLink>
+                <Footer></Footer>
             </div>
 
         </div>

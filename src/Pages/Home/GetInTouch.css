@@ -1,0 +1,11 @@
+.education{
+    height: 500px;
+    width: 100%;
+    background-image: linear-gradient(
+        rgba(66, 15, 91, 0.76),
+        rgba(70, 14, 100, 0.169)
+    ),url(../../images/technologies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

@@ -64,7 +64,7 @@ const Skills = () => {
     };
 
     return (
-      <div className='w-4/5 2xl:w-3/5 mx-auto mt-16'>
+      <div id='skill' className='w-4/5 2xl:w-3/5 mx-auto mt-16'>
         <h2 style={{letterSpacing:"7px"}} className='text-center text-4xl md:text-6xl mb-12'>SKILLS</h2>
         <Slider {...settings}>
           <div className='p-12 text-center'>

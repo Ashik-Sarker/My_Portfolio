@@ -7,7 +7,7 @@ import img3 from '../../images/ladyslipper-cottages.webp'
 const Projects = () => {
     const navigate = useNavigate();
     return (
-        <div className='mt-36'>
+        <div id='project' className='mt-36'>
             <h1 style={{letterSpacing:"7px"}} className='text-4xl md:text-6xl text-center mb-28'>PROJECTS</h1>
             {/* <Border></Border> */}
             <div class="w-4/5 2xl:w-3/5 mx-auto card lg:card-side bg-base-100 mt-20 mb-40">

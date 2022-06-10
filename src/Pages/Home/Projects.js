@@ -1,9 +1,11 @@
 import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import img1 from '../../images/agyle-intelligence@2x.webp'
 import img2 from '../../images/hal-con.webp'
 import img3 from '../../images/ladyslipper-cottages.webp'
 
 const Projects = () => {
+    const navigate = useNavigate();
     return (
         <div className='mt-36'>
             <h1 style={{letterSpacing:"7px"}} className='text-4xl md:text-6xl text-center mb-28'>PROJECTS</h1>
@@ -17,7 +19,8 @@ const Projects = () => {
                     Admin can create and manage Products.</p>
                     
                     <div class="card-actions">
-                        <button class="btn btn-primary">Project Details</button>
+
+                        <button onClick={() => navigate('/projectDetails/1')} class="btn btn-primary">Project Details</button>
                         <button class="btn btn-primary"><a target="_blank" href="https://best-tools-manufacturer.web.app/">Visit Site</a></button>
                         <button class="btn btn-primary"><a target="_blank" href="https://github.com/Ashik-Sarker/Tools-Manufacturer-Client/">Client Code</a></button>
                         <button class="btn btn-primary"><a target="_blank" href="https://github.com/Ashik-Sarker/Tools-Manufacturer-Server">Server Code</a></button>
@@ -33,7 +36,7 @@ const Projects = () => {
                     Every users can see their own products</p>
                     
                     <div class="card-actions">
-                        <button class="btn btn-primary">Project Details</button>
+                        <button onClick={() => navigate('/projectDetails/2')}class="btn btn-primary">Project Details</button>
                         <button class="btn btn-primary"><a target="_blank" href="https://bikers-warehouse.web.app/">LiveLink</a></button>
                         <button class="btn btn-primary"><a target="_blank" href="https://github.com/Ashik-Sarker/Bikers-WareHouse-Client">Client Code</a></button>
                         <button class="btn btn-primary"><a target="_blank" href="https://github.com/Ashik-Sarker/Bikers-WareHouse-Server">Server Code</a></button>
@@ -52,7 +55,7 @@ const Projects = () => {
                     create unique UI and simple UX</p>
                     
                     <div class="card-actions">
-                        <button class="btn btn-primary">Project Details</button>
+                        <button onClick={() => navigate('/projectDetails/3')} class="btn btn-primary">Project Details</button>
                         <button class="btn btn-primary"><a target="_blank" href="https://pro-developer-357f4.web.app/">LiveLink</a></button>
                         <button class="btn btn-primary"><a target="_blank" href="https://github.com/Ashik-Sarker/Twinkle-kitchen">Source Code</a></button>
                     </div>

@@ -1,12 +1,12 @@
 import React from 'react';
 import Banner from './Banner';
 import GetInTouch from './GetInTouch';
-import NavBar from './NavBar';
 import Projects from './Projects';
 import Skills from './Skills';
 import './Home.css';
 import Footer from '../Common/Footer';
 import Border from '../Common/Border';
+import NavBar from './NavBar';
 
 const Home = () => {
     return (

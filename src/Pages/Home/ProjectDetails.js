@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
+import NavBar from './NavBar';
 
 const ProjectDetails = () => {
     const { id } = useParams();
@@ -69,6 +70,7 @@ const ProjectDetails = () => {
     return (
         <div>
             {/* <h1>project details: {id}</h1> */}
+            <NavBar></NavBar>
             <div class="hero min-h-screen bg-base-200">
                 <div class="hero-content flex-col lg:flex-row-reverse">
                     {/* //carousel */}
@@ -114,9 +116,9 @@ const ProjectDetails = () => {
                     <li>{p?.descriptions?.d3}</li>
                     <li>{p?.descriptions?.d4}</li>
                     </p>
-                    <button class="btn btn-primary"><a href={p.visitSite}>Visit Site</a></button>
-                    <button class="btn btn-primary"><a href={p.clientCode}>Client Code</a></button>
-                    <button class="btn btn-primary"><a href={p.serverCode}>Server Code</a></button>
+                    <button class="btn btn-sm btn-primary mr-2"><a target="_blank" href={p.visitSite}>Visit Site</a></button>
+                    <button class="btn btn-sm btn-primary mr-2"><a target="_blank" href={p.clientCode}>Client Code</a></button>
+                    <button class="btn btn-sm btn-primary mr-2"><a target="_blank" href={p.serverCode}>Server Code</a></button>
                     </div>
                 </div>
             </div>

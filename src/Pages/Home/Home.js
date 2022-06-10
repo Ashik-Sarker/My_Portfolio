@@ -19,7 +19,6 @@ const Home = () => {
 
             <div>
                 <Skills></Skills>
-                {/* <Border></Border> */}
                 <Projects></Projects>
                 <GetInTouch></GetInTouch>
                 <SocialLink></SocialLink>

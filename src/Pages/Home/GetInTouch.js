@@ -3,7 +3,7 @@ import React from 'react';
 const GetInTouch = () => {
     return (
         <div className='text-center my-12'>
-            <h1 className='my-8 text-6xl'>Get In Touch</h1>
+            <h1 style={{letterSpacing:"7px"}} className='my-8 text-6xl'>Get In Touch</h1>
             <form action="https://formsubmit.co/ashiksarker89@gmail.com" method="POST">
                 <input type="text" placeholder="Your Name" class="mb-4 input input-bordered input-sm w-full max-w-xs" /><br />
                 <input type="text" placeholder="Your email" class="mb-4 input input-bordered input-sm w-full max-w-xs" required/><br />

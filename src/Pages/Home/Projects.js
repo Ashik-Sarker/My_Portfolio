@@ -8,7 +8,7 @@ const Projects = () => {
     const navigate = useNavigate();
     return (
         <div id='project' className='mt-36'>
-            <h1 style={{letterSpacing:"7px"}} className='text-4xl md:text-6xl text-center mb-28'>PROJECTS</h1>
+            <h1 style={{letterSpacing:"7px"}} className='text-4xl md:text-6xl text-center mb-28 underline'>PROJECTS</h1>
             {/* <Border></Border> */}
             <div class="w-4/5 2xl:w-3/5 mx-auto card lg:card-side bg-base-100 mt-20 mb-40">
                 <figure><img src={img1} alt="Album"/></figure>

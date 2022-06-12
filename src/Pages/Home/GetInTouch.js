@@ -39,7 +39,7 @@ const GetInTouch = () => {
 
         <div id='contact' className='mb-32 z-50'>
             <div className = 'text-center mt-24 py-12' >
-                <h1 style={{letterSpacing:"7px"}} className='mb-12 text-4xl md:text-6xl'>Get In Touch</h1>
+                <h1 style={{letterSpacing:"7px"}} className='mb-12 text-4xl md:text-6xl underline'>Get In Touch</h1>
                 <form action="https://formsubmit.co/ashiksarker89@gmail.com" method="POST">
                     <input type="text" placeholder="Your Name" class="mb-4 input input-bordered input-md w-full max-w-xs md:max-w-md border-black" /><br />
                     <input type="text" placeholder="Your email" class="mb-4 input input-bordered input-md w-full max-w-xs md:max-w-md border-black" required/><br />
